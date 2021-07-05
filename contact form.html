@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Form</title>
-  </head>
-  <body>
-<form action="mailto:zsofia_munnich@yahoo.com" method="post" enctype="text/plain">
-  <label>Your Name</label>
-  <input type="text" name="yourname" value="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="Pictures\favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Karla&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="contact-form">
+  <form action="mailto:zsofia_munnich@yahoo.com" method="post" enctype="text/plain">
+    <label>Your Name</label>
+    <input type="text" name="yourname" value="">
+    <br>
+    <br>
+    <label>Your Email</label>
+    <input type="email" name="youremail" value="">
+    <br>
+    <br>
+    <label>Your Message:</label>
+    <br>
+    <textarea name="your message" rows="10" cols="30"></textarea>
+    <br>
+    <input class="submit" type="submit" name="">
+  </form>
   <br>
-  <br>
-  <label>Your Email</label>
-  <input type="email" name="youremail" value="">
-  <br>
-  <br>
-  <label>Your Message:</label>
-  <br>
-  <textarea name="your message" rows="10" cols="30"></textarea>
-  <br>
-  <input type="submit" name="">
-</form>
-<br>
-<hr>
-<p><a href="index.html">Back</a></p>
-  </body>
+  <p><a href="index.html">Back</a></p>
+</body>
+
 </html>
